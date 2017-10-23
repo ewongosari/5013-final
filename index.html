@@ -2,15 +2,14 @@
 <html lang="en">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Home</title>
-
-  <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 </head>
+
 <body>
+<!--navbar-->
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="index.html" class="brand-logo">EdTech+</a>
       <ul class="right">
@@ -19,46 +18,137 @@
         <li><a href="community.html">Community</a></li>
         <li><a href="eventfinder.html">Events</a></li>
           <li><ul class="right hide-on-med-and-down">
-            <a class='dropdown-button btn orange' href='#' data-activates='dropdown1'>Your Profile</a>
-            <ul id='dropdown1' class='dropdown-content'>
-                <li><a href="#!">Homepage</a></li>
-                <li><a href="#!">Inbox</a></li>
-                <li><a href="#!">Registered Events</a></li>
-                  <li><a href="#!">Bookmarked APPs</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">Settings</a></li>
-            </ul>
+            <button class="waves-effect waves-light btn modal-trigger orange" data-target="modal1">Login</button>
           </ul>
         </li>
       </ul>
-
-
       <ul id="nav-mobile" class="side-nav">
         <li><a href="#">Navbar Link</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
-    <div class="container">
+
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
       <br><br>
       <h1 class="header center orange-text">One-Stop Solution to your EdTech</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">This is an interactive site providing educators with technology-based resources aligned with pedagogical goals and learning objectives.</h5>
-      </div>
-      <div class="row center">
-        <a href="" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
+        <div class="row center">
+          <h5 class="header col s12 light">This is an interactive site providing educators with technology-based resources aligned with pedagogical goals and learning objectives.</h5>
+        </div>
+        <div class="row center">
+          <a href="#subpage" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
+        </div>
       <br><br>
 
     </div>
   </div>
 
 
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 class="center">Login to your account</h4>
+      <div class="row">
+          <div class="input-field col s6 push-s3">
+               <input id="image_url" type="text">
+               <label>email adress</label>
+          </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s6 push-s3">
+              <input id="image_title" type="text" class="validate">
+              <label for="image_title">password</label>
+          </div>
+     </div>
+     <div class="center">
+            <a class="waves-effect waves-light btn orange">Sign in</a>
+            <p class="grey-text text-lighten-1">or sign in via</p>
+            <a class="waves-effect waves-light btn light-blue lighten-1 grey-text text-darken-1">Google</a>
+            <a class="waves-effect waves-light btn light-blue lighten-1  grey-text text-darken-1">Facebook</a>
+      </div>
+   </div>
+
+    <div class="modal-footer">
+      <button class="modal-action modal-close waves-effect waves-light btn modal-trigger orange" data-target="modal2">>Don't have an account? Sign up here! <i class="material-icons right">send</i></a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h4 class="center">Create your account</h4>
+
+      <div class="row">
+          <div class="input-field col s6 push-s3">
+               <input id="image_url" type="text">
+               <label>email adress</label>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="input-field col s6 push-s3">
+              <input id="image_title" type="text" class="validate">
+              <label for="image_title">password</label>
+          </div>
+     </div>
+
+     <div class="center">
+            <a class="waves-effect waves-light btn orange">Sign up</a>
+            <p class="grey-text text-lighten-1">or sign up via</p>
+            <a class="waves-effect waves-light btn light-blue lighten-1 grey-text text-darken-1">Google</a>
+            <a class="waves-effect waves-light btn light-blue lighten-1  grey-text text-darken-1">Facebook</a>
+      </div>
+   </div>
+
+    <div class="modal-footer">
+      <a class=" modal-action modal-close waves-effect waves-light btn orange">Already have an account? Sign in here! <i class="material-icons right">send</i></a>
+    </div>
+  </div>
+  <!--Modal 3(contact us)-->
+    <div id="modal3" class="modal">
+        <div class="modal-content center">
+          <h4 class="center">Contact Us</h4>
+          <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate">
+        <label for="email">Email</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate">
+        <label for="email">Tell us your thought!</label>
+      </div>
+    </div>
+          <a class=" modal-action modal-close waves-effect waves-light btn orange">Submit<i class="material-icons right">send</i></a>
+        </div>
+      </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+  $('.modal').modal();
+  });
+  </script>
+
+
   <div class="container">
-    <div class="section">
+    <div class="section" id="subpage">
 
       <!--   Icon Section   -->
+
+
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
@@ -92,22 +182,23 @@
     <br><br>
   </div>
 
+
+<!--footer-->
   <footer class="page-footer orange">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">About</h5>
           <p class="grey-text text-lighten-4">Our website provides a holistic solution to educational technology-related problems that educators experience. It is designed to solve the problems by providing a user-friendly platform for teachers when they are seeking for resources, ideas, peer discussions, and mentorship.</p>
-
-
         </div>
+
         <div class="col l3 s12">
           <h5 class="white-text">More</h5>
           <ul>
             <li><a class="white-text" href="#!">News</a></li>
             <li><a class="white-text" href="#!">Team</a></li>
             <li><a class="white-text" href="#!">Subscribe</a></li>
-            <li><a class="white-text" href="#!">Join Us</a></li>
+            <li class="modal-trigger" data-target="modal3"><a class="white-text" href="#!">Contact Us</a></li>
           </ul>
         </div>
         <div class="col l3 s12">
@@ -129,10 +220,6 @@
   </footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
 </html>
