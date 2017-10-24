@@ -23,13 +23,13 @@ Our target audience are K-12 teachers who want to learn and apply technology int
 
 **User Story 1:**
 
-<img src="visual/user-paula.jpg" alt="Paula" style="height:100px">
+<img src="visual/user-paula.jpg" alt="Paula" width=100>
 
 This is Paula and she is a 22-year old who has just graduated college with an elementary education degree. She works as a first-year teacher at a charter school in New York City that is starting a one-to-one iPad initiative in the new academic year. Paula is very excited because her classroom is selected to be a part of the pilot project but at the same time, she is terrified because her iPad skills are limited to productivity apps, games and Web browsing. She feels that she knows next to nothing about educational iPad apps. Fortunately, the school has set up a mentoring system where teachers who are more technology-savvy guide those who are not. She discusses her struggles with her mentor teacher who points out our website as an easy-to-use resource. Paula likes that the app filtering system has many different options so she can narrow down the filter results to those apps that are the most suitable. While browsing the site, she also enjoys the forum where she is able to communicate with other educators who are using the same apps as her and learn from their valuable tips and tricks. Paula then bookmarks the site as one of her top ten edtech resources.
 
 **User Story 2:**
 
-<img src="visual/user-henry.jpg" alt="Henry" style="height:100px">
+<img src="visual/user-henry.jpg" alt="Henry" width=100>
 
 This is Henry and he is a 46-year old public school teacher who has been teaching for more than 20 years. His domain of expertise is in high school mathematics and he feels very good at this point in his teaching journey. However, he noticed with each incoming batch of students that they are increasingly digital-savvy and consume a lot of their free time online. Some of his students struggle with understanding the more abstract concepts of statistics and calculus. Henry then decides to leverage the power and functionalities of technology to flip his classroom, a technique he had read in one of the educational blogs he follows but does not have the chance to implement yet. As he researches deeper, he comes across our website and checks it out to find some apps he can use. Unexpectedly, Henry finds the forum to be very useful because flipped learning is one of the hottest topic of discussion and he can find other educators who have successfully used the technique in their classrooms. He engages in long conversations with them and asks feedback for his unit plans. In addition, he discovers relevant webinars about blended learning strategies through the PD Finder. The site quickly becomes one of Henry’s favorites and he actively shares it to his colleagues.
 
