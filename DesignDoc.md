@@ -1,13 +1,13 @@
 # **Design Documentation**
 
-Our project, **Ed+Tech** (pronounced as **“edplustech”**), is an interactive website providing 21st-century educators with technology-based resources they need to support their pedagogy in their student-centered classrooms. It serves as a platform for educators with an interest or need in educational technology to find, learn, share and discuss all kinds of edtech topics. It can be accessed at this [Github Page](https://tianjiaosuzy.github.io/5013-2-final/). We have utilized Jesse Garrett's *Model of 5 Elements of User Experience* in our design thinking process, and they are outlined in the following sections:
+Our project, **Ed+Tech** (pronounced as **“edplustech”**), is an interactive website providing 21st-century educators with technology-based resources they need to support their pedagogy in their student-centered classrooms. It serves as a platform for educators with an interest or need in educational technology to find, learn, share and discuss all kinds of edtech topics. It can be accessed at this [Github Page](https://) or [Firebase Page](https://). We have utilized Jesse Garrett's *Model of 5 Elements of User Experience* in our design thinking process, and they are outlined in the following sections:
 
 ## Topic
-Our project is related to the subject of educational technology integration. Noticing the time-consuming research and comparison processes involved in looking for appropriate educational technology resources, this website combines resources finding and forum participation to build an edtech virtual community that can learn together and help each other out. Our website is a small part of the bigger domain of teacher professional development and it can be used in adjunction with other websites, programs, or networks specializing on teaching and training teachers.
+Our project is related to the subject of educational technology integration. Noticing the time-consuming research and comparison processes involved in looking for appropriate educational technology resources, this website combines resources finding and forum participation to build an edtech virtual learning community that can learn together and help each other out. Our website is a small part of the bigger domain of teacher professional development and it can be used in adjunction with other websites, programs, or networks specializing on teaching and training teachers in the realms of edtech.
 
 ## Problem
 These are the main problems educators face in educational technology integration which can influence the effectiveness of their pedagogy:
-1. Educators interested in educational technology want to apply technology in their classrooms but do not know what tools are available, which one fits the most, or how to use them appropriately in terms of efficiency and pedagogy.
+1. Educators interested in educational technology want to apply technology in their classrooms but do not know what tools are available, which one fits their class the most, or how to use them appropriately in terms of efficiency and pedagogy.
 
 2. Educators interested in educational technology encounter difficulties in searching for professional development events that are focused on educational technology topics.
 
@@ -46,27 +46,32 @@ Educators who have beginner or intermediate level in educational technology inte
 3. Educators can participate in a community of practice that discuss and share ideas and additional resources on educational technology integration.
 
 ### Success Metrics
-For the current midterm, we can analyze user satisfaction from the Website feedback form they fill in after they have explored our site. But ideally, we want to be able to monitor site traffic, user clicks, bookmarked apps and events, user ratings and reviews of apps and PD events, and forum discussion content.
+For now, we can analyze user satisfaction from the Website feedback form they fill in after they have explored our website. But ideally, we want to be able to monitor site traffic, user clicks, bookmarked apps and events, user ratings and reviews of apps and PD events, and forum discussion content. Then we can analyze the collected data to figure out how to improve specific site navigation and user interaction as well as address any concerns or struggles our users have with the site's functionalities.
 
 ## Scope
 
 **Content Specifications:**
-  * A message in the header image where users can understand the purpose of the site
+  * A brief message in the header image where users can understand the purpose of the site
   * Icons and short description for each sub-page to explain their purposes
-  * About Us info, Contact Us and Website feedback in footer
+  * About Us description to explain our team
+  * Social media links and Contact Us and Website feedback forms in footer
   * App database to find specific apps based on filters
-  * Information for each app on App Cards
-  * PD event database to find specific events based on filters *(not functional yet)*
-  * Community forum based on categories and topics *(not functional yet)*
+  * Brief information for each app on App Cards
+  * Detailed information for each app on App pages
+  * PD event database to find specific events based on filters
+  * Community forum based on categories and discussions
+  * Detailed forum discussion pages
 
 **Functional Specifications:**
-  * Navigation menu bar
-  * User Sign-Up/Login button and modal forms
+  * Navigation menu bar with Username (once logged in)
+  * Login/Logout button and modal forms
   * Icon and name links to each sub-page
   * Contact Us and Website feedback modal forms
   * Social network links to connect to our project
   * App filtering system with shown/hidden App Cards
-  * Bookmarking system
+  * PD Event filtering system with shown/hidden PD Cards
+  * Bookmarking buttons
+  * Community forum add and delete threads and messages
 
 ## Structure
 Here are the **information designs** of the filtering systems on our website:
@@ -97,9 +102,13 @@ Here are the **prototypes** of our website:
 
 ![App Finder page](visual/prototype-app.jpg)
 
+![App detail page](visual/prototype-app-detail.jpg)
+
 ![PD Finder page](visual/prototype-pd.jpg)
 
 ![Community Forum page](visual/prototype-forum.jpg)
 
+![Community detail page](visual/prototype-forum-detail.jpg)
+
 ## User Tests
-We did three user testings for this initial prototype, mainly for the layout, function, and overall user flow of the landing page and AppFinder page. The users are the same as the interviewees in the user need identification phase. According to their feedback on user experience design, we conclude that: 1) In terms of the landing page, all of the three users said the overall layout is simple and clear, easy to navigate through the navigation bar and the introduction column, but the disabled “Get Started” button is confusing and the color palette is not aesthetically pleasing at all. Also, two people suggest that the re-positioning of the pop-up window for the Contact Us form should be considered, otherwise it’s too easily ignored; 2) As for the AppFinder page, all three users said they found it a great help in looking for EdTech apps, and the design and logic behind it is really simple and obvious; one user suggests that the filter of user (teachers/students) is especially useful; another user suggests that we could display both the apps and related information in cards and lists. Providing the option to choose information in a list might cater to the need to look at more information without images at a time. Overall, the feedbacks are generally positive and our design is so far addressing the right problem and heading to the right direction with some modifications suggested.
+We did three user testings for this final prototype. We focused on the layout, function, and overall user flow of the whole website. According to users' feedback, we conclude that: 1) ; 2) .
